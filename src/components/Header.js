@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import { InnerWrapper } from './Styling'
 import github from './images/icons/github.svg'
 import linkedin from './images/icons/linkedin.svg'
-import profile from './images/profile.jpg'
+// import profile from './images/profile.jpg'
+import mariawestling from './images/mariawestling.jpg'
 import headerpicture from './images/headerpicture.jpg'
 
 export const Header = () => {
@@ -19,7 +20,7 @@ export const Header = () => {
           <HeaderFrontEnd>frontend developer</HeaderFrontEnd>
           <HeaderBackground>+ objects conservator</HeaderBackground>
         </HeaderText>
-        <ProfileImage src={profile} alt="profile" />
+        <ProfileImage src={mariawestling} alt="profile" />
       </InnerWrapper>
     </HeaderWrapper>
   )
